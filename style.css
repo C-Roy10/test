@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav ol  li  a {
+    color: white; /* リンクの色を白に設定 */
+    text-decoration: none; /* 下線を消す（必要に応じて） */
+}
+
+nav ol li a:hover {
+    color: #ccc; /* ホバー時の色を薄いグレーに設定（オプション） */
+}
+.hero img {
+    width: 100%;
+    height: auto;   /* 画像の幅を100%に設定し、高さは自動調整 */
+
+}
+.home figure {
+    margin: 0; /* 画像の周りの余白をなくす */
+}
+#home h2 {
+    font-size: 24px; /* タイトルのフォントサイズを設定 */
+    color: #333; /* タイトルの色を設定 */
+    text-align: center; /* タイトルを中央揃え */
+    margin-top: 20px; /* タイトルの上に余白を追加 */
+}
+#home p {
+    font-size: 16px; /* テキストのフォントサイズを設定 */
+    color: #666; /* テキストの色を設定 */
+    text-align: center; /* テキストを中央揃え */
+    margin-top: 10px; /* テキストの上に余白を追加 */
+}
+#news h2 {
+    font-size: 24px; /* ニュースタイトルのフォントサイズを設定 */
+    color: #333; /* ニュースタイトルの色を設定 */
+    text-align: center; /* ニュースタイトルを中央揃え */
+    margin-top: 20px; /* ニュースタイトルの上に余白を追加 */
+}
+#news p {
+    font-size: 16px; /* ニューステキストのフォントサイズを設定 */
+    color: #666; /* ニューステキストの色を設定 */
+    text-align: center; /* ニューステキストを中央揃え */
+    margin-top: 10px; /* ニューステキストの上に余白を追加 */
+}
+#about h2 {
+    font-size: 24px; /* アバウトタイトルのフォントサイズを設定 */
+    color: #333; /* アバウトタイトルの色を設定 */
+    text-align: center; /* アバウトタイトルを中央揃え */
+    margin-top: 20px; /* アバウトタイトルの上に余白を追加 */
+}
+#about p {
+    font-size: 16px; /* アバウトテキストのフォントサイズを設定 */
+    color: #666; /* アバウトテキストの色を設定 */
+    text-align: center; /* アバウトテキストを中央揃え */
+    margin-top: 10px; /* アバウトテキストの上に余白を追加 */
+}
+#lessons h2 {
+    font-size: 24px; /* レッスンタイトルのフォントサイズを設定 */
+    color: #333; /* レッスンタイトルの色を設定 */
+    text-align: center; /* レッスンタイトルを中央揃え */
+    margin-top: 20px; /* レッスンタイトルの上に余白を追加 */
+}
+#lessons p {
+    font-size: 16px; /* レッスンテキストのフォントサイズを設定 */
+    color: #666; /* レッスンテキストの色を設定 */
+    text-align: center; /* レッスンテキストを中央揃え */            
+    margin-top: 10px; /* レッスンテキストの上に余白を追加 */
+}
+#lessons table {
+    margin: 0 auto; /* テーブルを中央揃えにする */
+    border-collapse: collapse; /* セルの境界線を結合する */
+}
+#lessons th, #lessons td {
+    border: 1px solid #ddd; /* セルの境界線を設定 */
+    padding: 8px; /* セル内の余白を設定 */
+    text-align: center; /* セル内のテキストを中央揃え */
+}
+#lessons th {
+    background-color: #f2f2f2; /* ヘッダーセルの背景色を設定 */
+    color: #333; /* ヘッダーセルのテキスト色を設定 */       
+}
+#lessons td {
+    background-color: #fff; /* データセルの背景色を設定 */      
+    color: #666; /* データセルのテキスト色を設定 */ 
+}
+#contact h2 {
+    font-size: 24px; /* コンタクトタイトルのフォントサイズを設定 */     
+    color: #333; /* コンタクトタイトルの色を設定 */     
+    text-align: center; /* コンタクトタイトルを中央揃え */
+    margin-top: 20px; /* コンタクトタイトルの上に余白を追加 */
+}
+#contact p {
+    font-size: 16px; /* コンタクトテキストのフォントサイズを設定 */     
+    color: #666; /* コンタクトテキストの色を設定 */ 
+    text-align: center; /* コンタクトテキストを中央揃え */      
+    margin-top: 10px; /* コンタクトテキストの上に余白を追加 */
+}
+footer {
+    background-color: #333; /* フッターの背景色を設定 */
+    color: white; /* フッターのテキスト色を設定 */      
+    text-align: center; /* フッターのテキストを中央揃え */
+    padding: 10px; /* フッターの内側の余白を設定 */     
+    position: relative; /* フッターの位置を相対的に設定 */
+    bottom: 0; /* フッターをページの下部に配置 */
+    width: 100%; /* フッターの幅を100%に設定 */
+}       
